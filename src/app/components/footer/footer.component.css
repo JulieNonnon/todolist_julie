@@ -1,0 +1,37 @@
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-top: solid 1px white;
+}
+
+button{
+    background-color: #1D2038;
+    height: 66px;
+    width: 66px;
+    border: none;
+    border-radius: 50px;
+    margin: 17px 12.5px;
+
+}
+
+.btn-list:hover, .btn-plus:hover, .btn-history:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.btn-list:hover{
+    background-color: #88E7A1;
+}
+
+.btn-plus:hover{
+    background-color: #F3D24F; 
+}
+
+.btn-history:hover{
+    background-color: #E475F1;
+}
+
+img{
+    display: block;
+}
