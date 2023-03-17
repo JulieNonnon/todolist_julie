@@ -17,30 +17,39 @@ button{
 
 }
 
+/* Boutons icones */
 .btn-list{
     background-image: url(src\assets\images\icon_list.png);
 }
-
 .btn-plus{
     background-image: url(src\assets\images\icon_plus.png);
 }
-
 .btn-history{
     background-image: url(src\assets\images\icon_history.png);
 }
 
-.btn-list:hover, .btn-plus:hover, .btn-history:hover{
-    transition-duration: 0.5s;
+
+/* Boutons si page active */
+.btn-list .active{
+    background-color: #88E7A1;
+}
+.btn-plus .active{
+    background-color: #F3D24F;
+}
+.btn-history .active{
+    background-color: #E475F1;
 }
 
+/* Boutons si survolés (optionel) */
 .btn-list:hover{
     background-color: #88E7A1;
 }
-
 .btn-plus:hover{
     background-color: #F3D24F; 
 }
-
 .btn-history:hover{
     background-color: #E475F1;
+}
+.btn-list:hover, .btn-plus:hover, .btn-history:hover{
+    transition-duration: 0.5s;
 }
