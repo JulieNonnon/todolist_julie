@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CreateTaskButtonComponent } from './components/create-task-button/create-task-button.component';
 import { ModifyTaskButtonComponent } from './components/modify-task-button/modify-task-button.component';
+import { ValidateTaskButtonComponent } from './components/validate-task-button/validate-task-button.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ModifyTaskButtonComponent } from './components/modify-task-button/modif
     HeaderComponent,
     FooterComponent,
     CreateTaskButtonComponent,
-    ModifyTaskButtonComponent
+    ModifyTaskButtonComponent,
+    ValidateTaskButtonComponent
   ],
   imports: [
     BrowserModule,
