@@ -37,3 +37,8 @@ html{
 .btn-action:hover{
     cursor: pointer;
 }
+
+.emptyContentMessage{
+    text-align: center;
+    margin-bottom: 32px;
+}
