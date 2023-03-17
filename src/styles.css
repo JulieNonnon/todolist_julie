@@ -1,3 +1,5 @@
+/* Style Général */
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +13,13 @@ html{
     font-family: Quicksand;
     font-weight: 700;
     font-size: 16px;
+}
+
+/* Style des boutons "action" (Créer/Modifier/Valider) */
+
+.btn-action-flex{
+    display: flex;
+    justify-content: center;
 }
 
 .btn-action{
