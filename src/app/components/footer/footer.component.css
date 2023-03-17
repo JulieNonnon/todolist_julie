@@ -7,6 +7,8 @@ footer{
 
 button{
     background-color: #1D2038;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 66px;
     width: 66px;
     border: none;
@@ -15,8 +17,19 @@ button{
 
 }
 
+.btn-list{
+    background-image: url(src\assets\images\icon_list.png);
+}
+
+.btn-plus{
+    background-image: url(src\assets\images\icon_plus.png);
+}
+
+.btn-history{
+    background-image: url(src\assets\images\icon_history.png);
+}
+
 .btn-list:hover, .btn-plus:hover, .btn-history:hover{
-    cursor: pointer;
     transition-duration: 0.5s;
 }
 
@@ -30,8 +43,4 @@ button{
 
 .btn-history:hover{
     background-color: #E475F1;
-}
-
-img{
-    display: block;
 }
