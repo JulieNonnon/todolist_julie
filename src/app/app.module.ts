@@ -8,6 +8,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { CreateTaskButtonComponent } from './components/create-task-button/create-task-button.component';
 import { ModifyTaskButtonComponent } from './components/modify-task-button/modify-task-button.component';
 import { ValidateTaskButtonComponent } from './components/validate-task-button/validate-task-button.component';
+import { TodoListTasksComponent } from './pages/todo-list-tasks/todo-list-tasks.component';
+import { TodoAddTaskComponent } from './pages/todo-add-task/todo-add-task.component';
+import { TodoHistoryTasksComponent } from './pages/todo-history-tasks/todo-history-tasks.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ValidateTaskButtonComponent } from './components/validate-task-button/v
     FooterComponent,
     CreateTaskButtonComponent,
     ModifyTaskButtonComponent,
-    ValidateTaskButtonComponent
+    ValidateTaskButtonComponent,
+    TodoListTasksComponent,
+    TodoAddTaskComponent,
+    TodoHistoryTasksComponent
   ],
   imports: [
     BrowserModule,

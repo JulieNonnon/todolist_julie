@@ -2,11 +2,11 @@
 
     <nav>
 
-        <button class="btn-list"></button>
+        <button class="btn-list"><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}></a></button>
 
-        <button class="btn-plus"></button>
+        <button class="btn-plus"><a routerLink="todo-add-task" routerLinkActive="active"></a></button>
 
-        <button class="btn-history"></button>
+        <button class="btn-history"><a routerLink="todo-history-tasks" routerLinkActive="active"></a></button>
 
     </nav>
 
